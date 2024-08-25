@@ -1,7 +1,9 @@
 ## Steps
 -- Create React App
 -- Config tailwindcss
-
+-- Header
+-- Login form
+--Sign up form
 
 
 
