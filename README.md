@@ -2,11 +2,22 @@
 -- Create React App
 -- Config tailwindcss
 -- Header
+-- Routing
 -- Login form
 --Sign up form
+--Form validation
+-- useRef  Hook
 
 
-
+## Deployment
+    -- Firebase 
+    -- create a new project
+    -- Link your gmail with firebase
+    -- Install Firebase CLI - npm install -g firebase-tools
+    -- firebase login
+    -- firebase init
+    -- npm run build - to create project build to upload to hosting on the firebase
+    -- firebase deploy
 # Features
 -- Login
     -- Sign up/ Sign in page
