@@ -16,8 +16,16 @@
     -- Install Firebase CLI - npm install -g firebase-tools
     -- firebase login
     -- firebase init
-    -- npm run build - to create project build to upload to hosting on the firebase
+    -- npm run build - to create project build to upload to hosting on the firebase - production deployment
     -- firebase deploy
+    -- create a sign up user account
+
+
+
+
+
+
+
 # Features
 -- Login
     -- Sign up/ Sign in page
