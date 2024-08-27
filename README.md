@@ -19,8 +19,11 @@
     -- npm run build - to create project build to upload to hosting on the firebase - production deployment
     -- firebase deploy
     -- create a sign up user account
-
-
+    --Implemented Sign In user API
+    --Created Redux store with userSlice
+    --Implemented Sign out 
+    -- Update profile api call
+    -- fetch movies from TMDB movies
 
 
 
