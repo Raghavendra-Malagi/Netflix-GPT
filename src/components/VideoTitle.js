@@ -2,7 +2,7 @@ import { AiOutlineExclamationCircle } from "react-icons/ai";
 import { FaPlay } from "react-icons/fa";
 const VideoTitle = ({ title, overview }) => {
   return (
-    <div className="absolute top-[50%] left-[0%] translate-y-[-50%] bg-gradient-to-r from-black w-screen aspect-video">
+    <div className="absolute top-0 left-0 w-screen   bg-gradient-to-r from-black aspect-video">
       <div className="absolute top-[50%] left-[2%] translate-y-[-50%]">
         <h1 className="text-6xl font-bold text-white">{title}</h1>
         <p className="py-6 text-lg w-1/2 text-white">{overview}</p>

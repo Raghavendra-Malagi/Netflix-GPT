@@ -1,14 +1,22 @@
 import useNowPlayingMovies from "../hooks/useNowPlayingMovies";
+import usePopularMovies from "../hooks/usePopularMovies.js";
+import useTopRatedMovies from "../hooks/useTopRatedMovies.js";
+import useUpComingMovies from "../hooks/useUpcomingMovies.js";
+
 import Header from "./Header";
 import MainContainer from "./MainContainer";
 import SecondaryContainer from "./SecondaryContainer";
 
 const Browse = () => {
   useNowPlayingMovies();
+  usePopularMovies();
+  useUpComingMovies();
+  useTopRatedMovies();
   return (
-    <div className="">
-      <Header />
-      {/*
+    <>
+      <div className="relative">
+        <Header />
+        {/*
           MainContainer
             --Video Background
             --Video Title
@@ -17,9 +25,13 @@ const Browse = () => {
             --Cards * n
         
         */}
-      <MainContainer />
-      <SecondaryContainer />
-    </div>
+        <MainContainer />
+      </div>
+
+      <div>
+        <SecondaryContainer />
+      </div>
+    </>
   );
 };
 

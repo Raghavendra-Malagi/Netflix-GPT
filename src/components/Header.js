@@ -41,15 +41,15 @@ const Header = () => {
     return () => unsubscribe();
   }, []);
   return (
-    <div className="z-50 absolute px-8 py-2 bg-gradient-to-b from-black w-full flex justify-between">
+    <div className="absolute top-0 left-0 z-10 px-8 py-2 bg-gradient-to-b from-black w-full flex justify-between">
       <img className="w-40 mt-5" src={LOGO} alt="netflix-logo" />
       {user && (
-        <div className="flex items-center">
+        <div className="flex items-center text-white">
           <img className="w-8 h-8 mr-4" src={user?.photoURL} alt="userIcon" />
           <h1 className="mr-4">{user?.displayName}</h1>
           <button
             onClick={handleSignOut}
-            className="cursor-pointer hover:underline"
+            className="cursor-pointer hover:underline "
           >
             (Sign Out)
           </button>

@@ -38,6 +38,8 @@
     -- Embedded the youtube video
     -- Autoplay,muted
     -- Styling of the main container with tailwind
+    -- Building Secondary Component
+    
 # Features
 -- Login
     -- Sign up/ Sign in page

@@ -15,3 +15,4 @@ export const API_OPTIONS = {
 
 export const MOVIE_VIDEO_URL =
   "https://api.themoviedb.org/3/movie/{movie_id}/videos";
+export const IMG_CDN = "https://image.tmdb.org/t/p/w780/";
