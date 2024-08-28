@@ -24,11 +24,20 @@
     --Implemented Sign out 
     -- Update profile api call
     -- fetch movies from TMDB movies
-
-
-
-
-
+    -- Sign up user profile and display name fix
+    -- If user is is not logged in redirect to login page and vice versa
+    -- unsubscribe to onAuthStateChanged callback
+    -- Add hardcoded values to constants file
+    --Registered in TMDB, created an app and got access token
+    -- Documentation - Get data from now playing movies list API    
+    --Custom hook for now playing movies
+    -- Updated store with movieslice
+    -- Planning for main and secondary container
+    -- fetched data for trailer video
+    -- Updated store with trailer video data
+    -- Embedded the youtube video
+    -- Autoplay,muted
+    -- Styling of the main container with tailwind
 # Features
 -- Login
     -- Sign up/ Sign in page
