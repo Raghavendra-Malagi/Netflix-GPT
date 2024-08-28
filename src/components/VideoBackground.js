@@ -4,6 +4,7 @@ import useMovieTrailer from "../hooks/useMovieTrailer";
 const VideoBackground = ({ movieId }) => {
   //   const [trailerId, setTrailerId] = useState(null);
   const trailerClip = useSelector((store) => store.movies?.trailerVideo);
+
   useMovieTrailer(movieId);
   return (
     <div className="inherit w-[100%] h-[100%]">

@@ -1,5 +1,6 @@
 import { useSelector } from "react-redux";
 import MovieList from "./MovieList";
+import PopUp from "../components/PopUp";
 
 const SecondaryContainer = () => {
   const movies = useSelector((store) => store.movies);
@@ -13,6 +14,7 @@ const SecondaryContainer = () => {
       Movie List - Horror
     */}
       <div className="-mt-52 text-white relative z-20">
+        <PopUp />
         <MovieList title={"Now Playing"} movies={movies.nowPlayingMovies} />
         <MovieList title={"UpComing Movies"} movies={movies.upComingMovies} />
         <MovieList title={"Popular"} movies={movies.popularMovies} />
