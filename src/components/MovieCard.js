@@ -14,7 +14,7 @@ const MovieCard = ({ posterPath, id }) => {
     console.log(iframeKey);
     console.log(isOpen);
 
-    dispatch(updateIsOpen(true));
+    dispatch(updateIsOpen());
   };
   const getTrailerData = async () => {
     const data = await fetch(

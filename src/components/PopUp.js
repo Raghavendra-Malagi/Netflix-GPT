@@ -7,7 +7,7 @@ const PopUp = ({ movieId }) => {
   const isOpen = useSelector((store) => store.isOpen?.updateOpen);
   const handleIframeClose = () => {
     console.log(isOpen);
-    dispatch(updateIsOpen(false));
+    dispatch(updateIsOpen());
   };
   return (
     <>

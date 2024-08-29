@@ -39,6 +39,11 @@
     -- Autoplay,muted
     -- Styling of the main container with tailwind
     -- Building Secondary Component
+    -- useNowPlayingMovies custom hook
+    -- GPT search addition
+    -- GPT Search page
+    -- GPT Search Bar
+    -- Multi language feature
     
 # Features
 -- Login
